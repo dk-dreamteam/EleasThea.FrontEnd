@@ -490,7 +490,7 @@
         <div class="reservation-form d-flex flex-column align-items-center justify-content-center">
             <div class="reservation-form-container">
                 <form onsubmit="makeReservation(fullName.value, email.value, telephone.value, numberOfPeople.value, resDate.value, resTime.value, event);" method="POST">
-                    <div class="input-explainer" id="lang_reservation_fullname">Το ονοματεπώνυμο σας</div>        
+                    <div class="input-explainer" id="lang_reservation_fullname">Το ονοματεπώνυμο σας</div>
                     <input type="text" name="fullName" placeholder="John Doe" class="form-input-maxWidth" required>
                     <br>
 
@@ -501,16 +501,7 @@
                     <div class="input-explainer" id="lang_reservation_phone">Αριθμός τηλεφώνου & αριθμός ατόμων</div>
                     <div>
                         <input type="number" name="telephone" id="reservation-tel-picker" placeholder="69 -" class="form-input-halfWidth" required>
-                        <select placeholder="Άτομα" name="numberOfPeople" class="select-PersonsNumber form-input-halfWidth" required>
-                            <option value="1" id="lang_reservation_option_1person">1 </option>
-                            <option value="2" id="lang_reservation_option_2persons">2 </option>
-                            <option value="3" id="lang_reservation_option_3persons">3 </option>
-                            <option value="4" id="lang_reservation_option_4persons">4 </option>
-                            <option value="5" id="lang_reservation_option_5persons">5 </option>
-                            <option value="6" id="lang_reservation_option_6persons">6 </option>
-                            <option value="7" id="lang_reservation_option_7persons">7 </option>
-                            <option value="8" id="lang_reservation_option_8persons">8 </option>
-                        </select>
+                        <input type="number" name="numberOfPeople" id="lang_reservation_option_persons" placeholder="Άτομα" class="form-input-halfWidth" required>
                     </div>
                     <br>
 
