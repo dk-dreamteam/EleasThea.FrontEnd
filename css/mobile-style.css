@@ -329,11 +329,22 @@
         font-weight: 100;
         padding:20px;
     }
-    
+
+    /*Wedding Slide*/
+    .weddingSlide-title {
+        font-size: 35px;
+    }
+
+    .weddingSlide-text {
+        font-size: 18px;
+        width: 90vw;
+        text-align: left;
+        padding: 20px;
+    }
 
     /* Contact Slide */
-    .contactSlide{
-        flex-direction: column;        
+    .contactSlide {
+        flex-direction: column;
     }
 
     .mapGroup{

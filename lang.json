@@ -179,6 +179,38 @@
     "it": "L'olio d'oliva che utilizziamo e offriamo e la maggior parte dei prodotti che scoprirete nei nostri piatti (salumi, latticini, verdure ...) sono di nostra produzione. <br> <br> Tutto viene fatto manualmente (raccolta ...) per garantire prodotti sani e controllati, garantiamo l'eccellenza di gusti, aromi e consistenze! <br><br> Offriamo anche questi prodotti in vendita: olio d'oliva, vini vari, tsikoudia, rakomelo e molti altri prodotti",
     "el": "Το ελαιόλαδο που χρησιμοποιούμε καθώς και τα περισσότερα προϊόντα που εμπλουτίζουν την κουζίνα μας (κρεατικά, τυροκομικά, λαχανικά, κ.ά.) είναι δικής μας παραγωγής. <br><br> Με διαλεκτά συστατικά και συνεχή έλεγχο της ασφάλειας, εγγυόμαστε την άριστη ποιότητα σε μια εξαίσια γιορτή γεύσεων, αρωμάτων και υφών! <br><br> Στο εστιατόριο μας διατίθενται προς πώληση ελαιόλαδο, κρασί, τσικουδιά, ρακόμελο κ.ά."
   },
+
+  "cookingClass_lang_title": {
+    "el": "Μάθε για τα μαθήματα μαγειρικής!",
+    "en": "Learn about our Cooking Classes!",
+    "fr": "Learn about our Cooking Classes!",
+    "it": "Learn about our Cooking Classes!"
+  },
+  "cookingClass_lang_text": {
+    "el": "Το εστιατόριο μας βρίσκεται στις Βουκολιές, έναν ευχάριστο προορισμό, ένα μέρος όπου συνδυάζονται μοντέρνα και παραδοσιακά στοιχεία, θα σας προσφέρει ένα εξαιρετικό ταξίδι στη γαστρονομία και τις τοπικές γεύσεις σε σχέση με την παράδοση και την αγάπη για αυτό που κάνουμε.",
+    "en": "Our restaurant is located in Voukolies, an enjoyable destination; a place where modern and traditional elements blend, you will be provided with an outstanding journey to gastronomy and local flavours with respect to the tradition and love for what we do.",
+    "fr": "Our restaurant is located in Voukolies, an enjoyable destination; a place where modern and traditional elements blend, you will be provided with an outstanding journey to gastronomy and local flavours with respect to the tradition and love for what we do.",
+    "it": "Our restaurant is located in Voukolies, an enjoyable destination; a place where modern and traditional elements blend, you will be provided with an outstanding journey to gastronomy and local flavours with respect to the tradition and love for what we do."
+  },
+  "cookingClass_lang_learnMore": {
+    "el": "Μάθε περισσότερα!",
+    "en": "LEARN MORE!",
+    "fr": "LEARN MORE!",
+    "it": "LEARN MORE!"
+  },
+  "wedding_lang_title": {
+    "el": "Εκδηλώσεις Γάμου & Βάπτισης!",
+    "en": "Wedding & Baptism events!",
+    "fr": "Wedding & Baptism events!",
+    "it": "Wedding & Baptism events!"
+  },
+  "wedding_lang_text": {
+    "el": "Αναλαμβάνουμε κάθε είδους κοινωνικής εκδήλωσης όπως γάμους, βαπτίσεις κ.α. Επικοινωνήστε μαζί μας για να πραγματοποιήσουμε την ονειρεμένη σας τελετή!",
+    "en": "We undertake every social events such as weddings, baptisms and more. <br>Contact us to make your dreamed ceremony become true!",
+    "fr": "We undertake every social events such as weddings, baptisms and more. <br>Contact us to make your dreamed ceremony become true!",
+    "it": "We undertake every social events such as weddings, baptisms and more. <br>Contact us to make your dreamed ceremony become true!"
+  },
+
   "lang_messaage_name": {
     "en": "Full name",
     "fr": "Nom et prénom",
