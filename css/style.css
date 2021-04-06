@@ -987,8 +987,8 @@ hr{
     width: 100%;
     flex-direction: row;
     height: 500px;
-    background: linear-gradient(to right, rgb(144 63 63 / 0%) 0em, rgb(255 255 255 / 0.7) 20em, rgb(255 255 255) 40em), url(../images/marriage.jpg);
-    background-size: contain;
+    background: linear-gradient(to right, rgb(144 63 63 / 0%) 0em, rgb(255 255 255 / 0.7) 15em, rgb(255 255 255 / 0.9) 25em, rgb(255 255 255 / 1) 35em), url(../images/marriage.jpg);
+    background-size: auto 100%;
     background-position: left center;
     background-repeat: no-repeat;
 }
