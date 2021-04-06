@@ -69,7 +69,8 @@
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap&subset=greek" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap&subset=greek" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,700&display=swap&subset=greek" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@132&display=swap" rel="stylesheet">
 
     <!-- Hamburger CSS -->
     <link href="css/hamburgers.css" rel="stylesheet">
@@ -109,6 +110,25 @@
 
     <!--Facebook JS-->
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2856203494706786');
+        fbq('track', 'PageView');
+    </script>
+
+    <!-- End Facebook Pixel Code -->
+
 
 </head>
 <body data-role="page">
@@ -204,7 +224,7 @@
             <!--<div>
                 <img lazy-src="images/gallery_images/1.jpg" class="imgFromGal">
             </div>-->
-            
+
         </div>
     </div>
 
@@ -240,7 +260,7 @@
                 συστατικά και συνεχή έλεγχο της ασφάλειας, εγγυόμαστε την άριστη ποιότητα
                 σε μια εξαίσια γιορτή γεύσεων, αρωμάτων και υφών"
             </div>
-
+            <!--<img src="images/vegan_friendly_large2.png" alt="Alternate Text" />-->
         </div>
         <div class="menuCatalog">
             <div class="ctnav">
@@ -402,16 +422,16 @@
     <span class="anchor" id="LearnAboutCookingLeesons"></span>
     <div class="cookingClassesIntroSlide d-flex align-items-center justify-content-center">
         <div class="container d-flex flex-column align-items-center justify-content-center">
-            <div class="cookingClassesSlide-title">
+            <div class="cookingClassesSlide-title" id="cookingClass_lang_title">
                 Learn about our Cooking Classes!
             </div>
-            <div class="cookingClassesSlide-text">
+            <div class="cookingClassesSlide-text" id="cookingClass_lang_text">
                 Our restaurant is located in Voukolies, an enjoyable destination;
                 a place where modern and traditional elements blend, you will be
                 provided with an outstanding journey to gastronomy and local flavours with
                 respect to the tradition and love for what we do.
             </div>
-            <a class="cookingClasses-learnMoreBtn" href="#cookingLessons">LEARN MORE!</a>
+            <a class="cookingClasses-learnMoreBtn" href="#cookingLessons" id="cookingClass_lang_learnMore">LEARN MORE!</a>
         </div>
     </div>
 
@@ -505,21 +525,25 @@
     </div>
 
     <!-- Wedding & Baptism -->
-    <!--<span class="anchor" id="wedding"></span>
+    <span class="anchor" id="wedding"></span>
     <div class="weddingSlide d-flex" id="wedding">
         <div class="container d-flex flex-column align-items-center justify-content-center">
-            <div class="weddingSlide-title">
+            <div class="weddingSlide-title" id="wedding_lang_title">
                 Wedding & Baptism events!
             </div>
-            <div class="weddingSlide-text">
+            <div class="weddingSlide-text" id="wedding_lang_text">
+                We undertake every social events such as weddings, baptisms and more.
+                <br />Contact us to make your dreamed ceremony become true!
+            </div>
+            <!--<div class="weddingSlide-text">
                 Our restaurant takes over every social business event such as weddings, <br /> baptisms and more
                 even for vegeterian & vegan.
                 <br />
                 <br />Make a reservation now!
             </div>-->
             <!--<a class="" href="">LEARN MORE</a>-->
-        <!--</div>
-    </div>-->
+        </div>
+    </div>
 
     <!-- Contact Slide -->
     <span class="anchor" id="contact"></span>
@@ -548,13 +572,14 @@
                     </div>
                 </div>
                 <div class="contactDetails-Section">
-                     <!--<i class="fas fa-clock mr-2 fa-icons"></i>
+                    <!--<i class="fas fa-clock mr-2 fa-icons"></i>
                     <div class="details-title">Λειτουργία:</div>
                         <div class="details-info">
                             Σάββατο & Κυριακή από τις 11:00 - 18:00 <br>
-                            Δευτέρα έως Παρασκευή ΚΛΕΙΣΤΑ--> <!--Pros8etoume _summer sto id apo katw des lang.json sto telos-->
-                        <!--</div>-->
-                        
+                            Δευτέρα έως Παρασκευή ΚΛΕΙΣΤΑ-->
+                    <!--Pros8etoume _summer sto id apo katw des lang.json sto telos-->
+                    <!--</div>-->
+
                     <i class="fas fa-clock fa-icons"></i>
                     <div class="details-info" id="lang_contact_schedule_summer">
                         Σάββατο 11:00 - 23:00 <br>
@@ -673,6 +698,11 @@
             Developed with <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/dimitris-grevenos-8878a218b/" target="_blank" class="developer-link">Dim Grev</a> & <a class="developer-link" target="_blank" href="https://www.linkedin.com/in/konstantinos-kritikakis-19680315b/">Kon Kri</a>
         </div>
     </div>
+
+    <!-- Facebook Pixel's Webhook -->
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=2856203494706786&ev=PageView&noscript=1" />
+    </noscript>
 
 </body>
 </html>

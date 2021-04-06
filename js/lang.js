@@ -52,6 +52,14 @@ $(document).ready(function () {
         $("#lang_reservation_btn").html(data.lang_reservation_btn[displayLang]);
         $("#lang_reservation_hint").html(data.lang_reservation_hint[displayLang]);
         $("#lang_quality_text").html(data.lang_quality_text[displayLang]);
+
+        $("#cookingClass_lang_title").html(data.cookingClass_lang_title[displayLang]);
+        $("#cookingClass_lang_text").html(data.cookingClass_lang_text[displayLang]);
+        $("#cookingClass_lang_learnMore").html(data.cookingClass_lang_learnMore[displayLang]);
+
+        $("#wedding_lang_title").html(data.wedding_lang_title[displayLang]);
+        $("#wedding_lang_text").html(data.wedding_lang_text[displayLang]);
+
         $("#lang_messaage_name").html(data.lang_messaage_name[displayLang]);
         $("#lang_messaage_email").html(data.lang_messaage_email[displayLang]);
         $("#lang_messaage_phone").html(data.lang_messaage_phone[displayLang]);
