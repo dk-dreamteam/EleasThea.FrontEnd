@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Xarrovv-7DBR";
+    src: url(../Xarrovv-7DBR.otf);
+}
+
+/* alt */
+
+.eventsBanner{
+    height: 100vh;
+    background: linear-gradient(to right, rgba(186,130,95,0.4), rgba(250, 234, 209, 0.7)), url(../images/events/couple_hands.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.eventsBannerTitle{
+    font-size: 95px;
+    color:white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    font-weight: 100;
+}
+
+.eventsBannerSecondaryTitle-black{
+    font-size: 50px;
+    color:darkolivegreen;
+    /* text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); */
+    font-weight: 190;
+}
+
+.eventsBannerSubTitle-white{
+    color:white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 200;
+}
+
+.eventsBannerSubTitle-black{
+    color:black;
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); */
+    font-weight: 200;
+}
+
+.eventsImg{
+    border-radius: 5px !important;
+    width: 400px;
+    box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* end alt */
+
+.fullSlide{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.slideText-white{
+    color: rgb(255,255,255);
+    font-size: 42px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.slideText-dark{
+    color: rgb(70,109,96);
+    font-size: 42px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.handsBg{
+    background-image: url(../images/events/hands.jpg);
+}
+
+.mwroBg{
+    background-image: url(../images/events/mwro.jpg);
+}
+
+.brideBg{
+    background-image: url(../images/events/nyfi2.jpg);
+}
+
+.slideSeparator{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+
