@@ -87,14 +87,15 @@
     <script src="js/gallery.js"></script>
 
     <!-- Custom -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile-style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile-style.css">
     <link rel="stylesheet" href="./events_style.css">
-    <script src="js/script.js"></script>
-    <script src="js/navbar.js"></script>
-    <script src="js/sendMessages.js"></script>
-    <script src="js/lang.js"></script>
-    <script src="js/lazyLoadGalleryImages.js"></script>
+    <link rel="stylesheet" href="./mobile_events_style.css">
+    <script src="../js/script.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/sendMessages.js"></script>
+    <script src="../js/lang.js"></script>
+    <script src="../js/lazyLoadGalleryImages.js"></script>
 
     <!-- OWL CSS -->
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
@@ -134,25 +135,220 @@
 </head>
 <body data-role="page">
 
-    <div class="fullSlide brideBg">
-        <div class="container d-flex h-100">
-            <p class="row justify-content-end align-self-center slideText-dark text-right">
-                Στο Ελαίας Θέα έχουμε την διάθεση και το μεράκι να οργανώσουμε μαζί την δεξίωση γάμου ή βάπτισης των ονείρων σας
-                με συντροφιά το μαγευτικό ηλιοβασίλεμα.
-            </p>        
+     <!-- Scroll on top - navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top scroll-on-top-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="../images/logos/logo_b&w.png" class="scroll-on-top-navbar-logo" alt="Eleas Thea"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="toggleHumburgerBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="scroll-on-top-nav-item nav-item nav-link" href="#menu" id="lang_nav_menu">MENΟΥ</a>
+                    <a class="scroll-on-top-nav-item nav-item nav-link showGalleryBtn" href="#gallery" id="lang_nav_gallery">GALLERY</a>
+                    <a class="scroll-on-top-nav-item nav-item nav-link" href="#contact" id="lang_nav_contact">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+                    <a class="scroll-on-top-nav-item nav-item nav-link" id="scroll-on-top-makeAReservationBtn" href="#reservation"><span id="lang_nav_reservation">ΚΡΑΤΗΣΗ</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Scroll variable - navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top scroll-variable-navbar scroll-variable-navbar-hidden">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="../images/logos/logo_coloured.png" class="scroll-variable-navbar-logo" alt="Eleas Thea"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="toggleHumburgerBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="scroll-variable-nav-item nav-item nav-link" href="#menu" id="lang_nav_menu2">MENΟΥ</a>
+                    <a class="scroll-variable-nav-item nav-item nav-link showGalleryBtn" href="#gallery" id="lang_nav_gallery2">GALLERY</a>
+                    <a class="scroll-variable-nav-item nav-item nav-link" href="#contact" id="lang_nav_contact2">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+                    <a class="scroll-variable-nav-item nav-item nav-link" id="scroll-variable-makeAReservationBtn" href="#reservation"><span id="lang_nav_reservation2">ΚΡΑΤΗΣΗ</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="eventsBannerWrapper">
+        <div class="eventsBanner">
+            <div class="container" style="height: 100%;">
+                <div class="d-flex flex-column justify-content-center" style="height: 100%;">
+                    <span class="p-2 eventsBannerTitle">
+                        Εκδηλώσεις
+                    </span>
+                    <span class="p-2 eventsBannerSubTitle-white">
+                        Στο Ελαίας Θέα έχουμε την διάθεση και το μεράκι να οργανώσουμε μαζί την δεξίωση γάμου ή βάπτισης των ονείρων σας με συντροφιά το μαγευτικό κρητικό ηλιοβασίλεμα. Οι οικοδεσπότες Γιώργος και Κατερίνα  βάζουν τη δική τους ξεχωριστή σφραγίδα στην οργάνωση και φροντίδα των καλεσμένων σας. 
+                    </span>
+                </div>
+            </div>        
+        </div>
+        <div class="eventsBannerCarousel carousel slide" data-ride="carousel">
+            <div class="carousel-inner" style="height: 100%;">
+                <div class="carousel-item active eventsBannerCarouselSlide coupleHandsBgImg">
+                </div>
+                <div class="carousel-item eventsBannerCarouselSlide babyCrossBgImg">
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="slideSeparator"></div>
+<br><br><br>
 
-    <div class="fullSlide handsBg">
-        <div class="container d-flex h-100">
-            <p class="row justify-content-end align-self-center slideText-white text-left">
-                Η παραδοσιακή κρητική κουζίνα μας με τα αγνής ποιότητας υλικά, θα σας αφήσει με τις καλύτερες εντυπώσεις. 
-                Το προσωπικό μας θα εξυπηρετήσει με απόλυτη ευγένεια κάθε ανάγκη των καλεσμένων σας, ώστε να νιώθουν άνετα.
-            </p> 
-        </div>        
+<div class="container">
+    <div class="d-flex flex-row convert_flex-direction_on_mob">
+        <div class="carousel slide p-4" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="eventsImg" src="../images/events/restaurant_outside.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="eventsImg" src="../images/events/table_outside.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="flex-column d-flex flex-column justify-content-center p-4" style="height: auto;">
+            <span class="eventsBannerSecondaryTitle-black">Γάμος</span>
+            <span class="eventsBannerSubTitle-black">
+                Ο γάμος είναι η πρώτη γιορτή του ζευγαριού που θα έχει  να την θυμάται παρέα με τον κοινωνικό τους κύκλο. Είναι η ευκαιρία να έρθουν πιο κοντά οι οικογένειες και οι φίλοι και γι αυτό το λόγο πρέπει να είναι ξεχωριστή. Σίγουρα υπάρχουν πολλοί τρόποι για να οργανώσετε μια όμορφη δεξίωση και να εντυπωσιάσετε τους καλεσμένους σας, τίποτα όμως δεν χαρακτηρίζει μια εκδήλωση περισσότερο από τον χώρο που την φιλοξενεί! Σκοπός μας είναι να προσφέρουμε στο ζευγάρι ξεχωριστές στιγμές απόλαυσης, ξεγνοιασιάς και διασκέδάσης!
+            </span>
+        </div>
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+    <div class="d-flex flex-row convert_flex-direction_on_mob_reverse">
+        <div class="flex-column d-flex flex-column justify-content-center p-4" style="height: auto;">
+            <span class="eventsBannerSecondaryTitle-black text-right">Βάπτιση</span>
+            <span class="eventsBannerSubTitle-black text-right">
+                Η βάπτιση αποτελεί την δεύτερη μεγαλύτερη «γιορτή» της οικογένειας, μετά τον γάμο, και συνήθως προσδοκάται από συγγενείς και φίλους με μεγάλο ενθουσιασμό, όχι μόνο από θρησκευτικής άποψης για την ευλογία και την ονοματοδοσία του παιδιού, αλλά και για το γλέντι που τις περισσότερες φορές ακολουθεί το μυστήριο.
+Γνωρίζοντας πως η βάπτιση του παιδιού σας είναι το πρώτο σημαντικό γεγονός της ζωής του μετά τη γέννηση του, φροντίζουμε η δεξίωση της βάπτισης να ανταποκρίνεται στις προσδοκίες σας. 
+            </span>
+        </div>
+        <div class="carousel slide p-4 d-flex flex-column justify-content-center " data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="eventsImg" src="../images/events/restaurant_outside.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="eventsImg" src="../images/events/table_outside.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br><br>
+
+    <div class="container">
+        <div class="d-flex flex-row convert_flex-direction_on_mob">
+            <div class="carousel slide p-4 d-flex flex-column justify-content-center " data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="eventsImg" src="../images/events/restaurant_outside.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="eventsImg" src="../images/events/table_outside.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="flex-column d-flex flex-column justify-content-center p-4" style="height: auto;">
+                <span class="eventsBannerSecondaryTitle-black">Κρητική Κουζίνα</span>
+                <span class="eventsBannerSubTitle-black">
+                    Η παραδοσιακή κρητική κουζίνα μας με τα αγνής ποιότητας υλικά, θα σας αφήσει με τις καλύτερες εντυπώσεις ενώ το προσωπικό μας θα εξυπηρετήσει κάθε ανάγκη των καλεσμένων σας, ώστε να νιώσουν ευχάριστα και οικεία.
+                </span>
+            </div>
+        </div>
     </div>
 
+    <br><br><br>
+
+    <div class="container">
+        <div class="d-flex flex-row convert_flex-direction_on_mob_reverse">
+            <div class="flex-column d-flex flex-column justify-content-center p-4" style="height: auto;">
+                <span class="eventsBannerSecondaryTitle-black text-right">Χώροι</span>
+                <span class="eventsBannerSubTitle-black text-right">
+                    Ο εσωτερικός χώρος του μαγαζιού μπορεί να εξυπηρετήσει μέχρι και 150 άτομα, ενώ οι καλεσμένοι σας μπορούν να φιλοξενηθούν και στον υπαίθριο χώρο, ο οποίος έχει χωρητικότητα τουλάχιστον 200 ατόμων. 
+Όσον αφορά τους μικρούς μας φίλους μπορούν να διασκεδάσουν και να χαλαρώσουν στην ασφαλή παιδική χαρά που βρίσκεται εξωτερικά.
+                </span>
+            </div>
+            <div class="carousel slide p-4 d-flex flex-column justify-content-center " data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="eventsImg" src="../images/events/restaurant_outside.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="eventsImg" src="../images/events/table_outside.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="container">
+        <div class="reservation-form-no-margin d-flex flex-column align-items-center justify-content-center">
+            <span class="eventsBannerSecondaryTitle-black text-right">Επικοινωνίστε μαζί μας</span>
+            <span class="eventsBannerSubTitle-black text-center">
+                Εσείς θα βάλετε μόνο την καλή σας διάθεση και εμείς θα κάνουμε αυτή την ημέρα ξεχωριστή.
+                Για περισσότερες πληροφορίες μπορείτε να συμπληρώσετε την παρακάτω φόρμα κι εμείς θα έρθουμε σε επικοινωνία μαζί σας.
+            </span>
+            <br><br>
+            <div class="reservation-form-container">
+                <form onsubmit="makeReservation(fullName.value, email.value, telephone.value, numberOfPeople.value, resDate.value, resTime.value, event);" method="POST">
+                    <div class="input-explainer" id="lang_reservation_fullname">Το ονοματεπώνυμο σας</div>
+                    <input type="text" name="fullName" placeholder="John Doe" class="form-input-maxWidth" required>
+                    <br>
+    
+                    <div class="input-explainer" id="lang_reservation_email">Η διεύθυνση e-mail σας</div>
+                    <input type="email" name="email" placeholder="johndoe@example.com" class="form-input-maxWidth" required>
+                    <br>
+    
+                    <div class="input-explainer" id="lang_reservation_phone">Αριθμός τηλεφώνου & αριθμός ατόμων</div>
+                    <div>
+                        <input type="number" name="telephone" id="reservation-tel-picker" placeholder="69 -" class="form-input-halfWidth" required>
+                        <input type="number" name="numberOfPeople" id="lang_reservation_option_persons" max="500" placeholder="Άτομα" class="form-input-halfWidth" required>
+                    </div>
+                    <br>
+    
+                    <div class="input-explainer" id="lang_reservation_date">Ημερομηνία</div>
+                    <input type="date" id="reservation-date-picker" onchange="ValidateDateForReservation(resDate.value);" name="resDate" class="form-input-maxWidth" placeholder="Ημερομηνία" required>
+                    <br>
+    
+                    <button type="submit" class="reserveBtn" id=""><span id="lang_reservation_btn">Θέλω να μάθω περισσότερα</span></button>
+                    <div class="reservation-hint" id="lang_reservation_hint">
+                        ή καλέστε στο <br>
+                        (+30) 28240-31222 / (+30) 693 83 27 110
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <br><br><br>
+
+<!-- Footer -->
+<div class="myfooter d-flex flex-column justify-content-center align-items-center">
+    <div class="footer-logo">
+        <img src="../images/logos/logo_b&w.png" class="scroll-on-top-navbar-logo" alt="Eleas Thea">
+    </div>
+    <div class="myfooter-social-media">
+        <a href="https://www.facebook.com/eleasthea/"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/eleas_thea/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tripadvisor.com.gr/Restaurant_Review-g12880149-d8469389-Reviews-Eleas_thea-Voukolies_Chania_Prefecture_Crete.html"><i class="fab fa-tripadvisor"></i></a>
+        <a href="https://foursquare.com/v/eleas-thea/5cc6ed38ad1789002c5e6604"><i class="fab fa-foursquare"></i></a>
+    </div>
+    <div class="copyright">
+        <i class="fas fa-copyright"></i> 2020 All Rights Reserved | Ελαίας Θέα - Eleas Thea
+    </div>
+    <div class="developers">
+        Developed with <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/dimitris-grevenos-8878a218b/" target="_blank" class="developer-link">Dim Grev</a> & <a class="developer-link" target="_blank" href="https://www.linkedin.com/in/konstantinos-kritikakis-19680315b/">Kon Kri</a>
+    </div>
+</div>
 </body>
 </html>

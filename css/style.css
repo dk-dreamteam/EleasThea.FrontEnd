@@ -739,6 +739,10 @@ iframe{
     width:50vw;
 }
 
+.reservation-form-no-margin{
+    width:auto !important;
+}
+
 .reservation-form-container{
     max-width:367px;
     background:white;
