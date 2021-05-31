@@ -329,11 +329,30 @@
         font-weight: 100;
         padding:20px;
     }
-    
+
+    /*Wedding Slide*/
+    .weddingSlide {
+        background: linear-gradient(to right, rgb(255 255 255 / 0.7) 0em, rgb(255 255 255 / 0.7) 15em, rgb(255 255 255 / 0.9) 25em, rgb(255 255 255 / 1) 35em), url(../images/marriage.jpg);
+        background-size: auto 100%;
+        background-position: left center;
+        background-repeat: no-repeat;
+    }
+
+    .weddingSlide-title {
+        font-size: 35px;
+    }
+
+    .weddingSlide-text {
+        font-size: 18px;
+        width: 90vw;
+        text-align: left;
+        padding: 20px;
+        text-shadow: 0px 0px 1px rgb(255, 255, 255), 0px 0px 2px rgb(255, 255, 255);
+    }
 
     /* Contact Slide */
-    .contactSlide{
-        flex-direction: column;        
+    .contactSlide {
+        flex-direction: column;
     }
 
     .mapGroup{

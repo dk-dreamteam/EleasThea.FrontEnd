@@ -47,19 +47,19 @@ $(document).ready(function () {
         $("#lang_reservation_phone").html(data.lang_reservation_phone[displayLang]);
         $("#lang_reservation_date").html(data.lang_reservation_date[displayLang]);
 
-        $("#lang_reservation_option_1person").html(data.lang_reservation_option_1person[displayLang]);
-        $("#lang_reservation_option_2persons").html(data.lang_reservation_option_2persons[displayLang]);
-        $("#lang_reservation_option_3persons").html(data.lang_reservation_option_3persons[displayLang]);
-        $("#lang_reservation_option_4persons").html(data.lang_reservation_option_4persons[displayLang]);
-        $("#lang_reservation_option_5persons").html(data.lang_reservation_option_5persons[displayLang]);
-        $("#lang_reservation_option_6persons").html(data.lang_reservation_option_6persons[displayLang]);
-        $("#lang_reservation_option_7persons").html(data.lang_reservation_option_7persons[displayLang]);
-        $("#lang_reservation_option_8persons").html(data.lang_reservation_option_8persons[displayLang]);
-
+        $("#lang_reservation_option_persons").attr("placeholder", data.lang_reservation_option_persons[displayLang]);
 
         $("#lang_reservation_btn").html(data.lang_reservation_btn[displayLang]);
         $("#lang_reservation_hint").html(data.lang_reservation_hint[displayLang]);
         $("#lang_quality_text").html(data.lang_quality_text[displayLang]);
+
+        $("#cookingClass_lang_title").html(data.cookingClass_lang_title[displayLang]);
+        $("#cookingClass_lang_text").html(data.cookingClass_lang_text[displayLang]);
+        $("#cookingClass_lang_learnMore").html(data.cookingClass_lang_learnMore[displayLang]);
+
+        $("#wedding_lang_title").html(data.wedding_lang_title[displayLang]);
+        $("#wedding_lang_text").html(data.wedding_lang_text[displayLang]);
+
         $("#lang_messaage_name").html(data.lang_messaage_name[displayLang]);
         $("#lang_messaage_email").html(data.lang_messaage_email[displayLang]);
         $("#lang_messaage_phone").html(data.lang_messaage_phone[displayLang]);

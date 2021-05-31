@@ -149,53 +149,17 @@
     "it": "Data e ora della prenotazione",
     "el": "Ημερομηνία & Ώρα κράτησης"
   },
+  "lang_reservation_option_persons": {
+    "en": "Persons",
+    "fr": "Personnes",
+    "it": "Persone",
+    "el": "Άτομα"
+  },
   "lang_reservation_option_1person": {
     "en": "1 Person",
     "fr": "1 Personne",
     "it": "1 Persona",
     "el": "1 Άτομο"
-  },
-  "lang_reservation_option_2persons": {
-    "en": "2 Persons",
-    "fr": "2 Personnes",
-    "it": "2 Persone",
-    "el": "2 Άτομα"
-  },
-  "lang_reservation_option_3persons": {
-    "en": "3 Persons",
-    "fr": "3 Personnes",
-    "it": "3 Persone",
-    "el": "3 Άτομα"
-  },
-  "lang_reservation_option_4persons": {
-    "en": "4 Persons",
-    "fr": "4 Personnes",
-    "it": "4 Persone",
-    "el": "4 Άτομα"
-  },
-  "lang_reservation_option_5persons": {
-    "en": "5 Persons",
-    "fr": "5 Personnes",
-    "it": "5 Persone",
-    "el": "5 Άτομα"
-  },
-  "lang_reservation_option_6persons": {
-    "en": "6 Persons",
-    "fr": "6 Personnes",
-    "it": "6 Persone",
-    "el": "6 Άτομα"
-  },
-  "lang_reservation_option_7persons": {
-    "en": "7 Persons",
-    "fr": "7 Personnes",
-    "it": "7 Persone",
-    "el": "7 Άτομα"
-  },
-  "lang_reservation_option_8persons": {
-    "en": "8 Persons",
-    "fr": "8 Personnes",
-    "it": "8 Persone",
-    "el": "8 Άτομα"
   },
   "lang_reservation_btn": {
     "en": "Make Reservation Online",
@@ -215,6 +179,38 @@
     "it": "L'olio d'oliva che utilizziamo e offriamo e la maggior parte dei prodotti che scoprirete nei nostri piatti (salumi, latticini, verdure ...) sono di nostra produzione. <br> <br> Tutto viene fatto manualmente (raccolta ...) per garantire prodotti sani e controllati, garantiamo l'eccellenza di gusti, aromi e consistenze! <br><br> Offriamo anche questi prodotti in vendita: olio d'oliva, vini vari, tsikoudia, rakomelo e molti altri prodotti",
     "el": "Το ελαιόλαδο που χρησιμοποιούμε καθώς και τα περισσότερα προϊόντα που εμπλουτίζουν την κουζίνα μας (κρεατικά, τυροκομικά, λαχανικά, κ.ά.) είναι δικής μας παραγωγής. <br><br> Με διαλεκτά συστατικά και συνεχή έλεγχο της ασφάλειας, εγγυόμαστε την άριστη ποιότητα σε μια εξαίσια γιορτή γεύσεων, αρωμάτων και υφών! <br><br> Στο εστιατόριο μας διατίθενται προς πώληση ελαιόλαδο, κρασί, τσικουδιά, ρακόμελο κ.ά."
   },
+
+  "cookingClass_lang_title": {
+    "el": "Μάθε για τα μαθήματα μαγειρικής!",
+    "en": "Learn about our Cooking Classes!",
+    "fr": "Learn about our Cooking Classes!",
+    "it": "Learn about our Cooking Classes!"
+  },
+  "cookingClass_lang_text": {
+    "el": "Το εστιατόριο μας βρίσκεται στις Βουκολιές, έναν ευχάριστο προορισμό, ένα μέρος όπου συνδυάζονται μοντέρνα και παραδοσιακά στοιχεία, θα σας προσφέρει ένα εξαιρετικό ταξίδι στη γαστρονομία και τις τοπικές γεύσεις σε σχέση με την παράδοση και την αγάπη για αυτό που κάνουμε.",
+    "en": "Our restaurant is located in Voukolies, an enjoyable destination; a place where modern and traditional elements blend, you will be provided with an outstanding journey to gastronomy and local flavours with respect to the tradition and love for what we do.",
+    "fr": "Our restaurant is located in Voukolies, an enjoyable destination; a place where modern and traditional elements blend, you will be provided with an outstanding journey to gastronomy and local flavours with respect to the tradition and love for what we do.",
+    "it": "Our restaurant is located in Voukolies, an enjoyable destination; a place where modern and traditional elements blend, you will be provided with an outstanding journey to gastronomy and local flavours with respect to the tradition and love for what we do."
+  },
+  "cookingClass_lang_learnMore": {
+    "el": "Μάθε περισσότερα!",
+    "en": "LEARN MORE!",
+    "fr": "LEARN MORE!",
+    "it": "LEARN MORE!"
+  },
+  "wedding_lang_title": {
+    "el": "Εκδηλώσεις Γάμου & Βάπτισης!",
+    "en": "Wedding & Baptism events!",
+    "fr": "Wedding & Baptism events!",
+    "it": "Wedding & Baptism events!"
+  },
+  "wedding_lang_text": {
+    "el": "Αναλαμβάνουμε κάθε είδους κοινωνικής εκδήλωσης όπως γάμους, βαπτίσεις κ.ά. Επικοινωνήστε μαζί μας για να πραγματοποιήσουμε την ονειρεμένη σας τελετή!",
+    "en": "We undertake every social events such as weddings, baptisms and more. <br>Contact us to make your dreamed ceremony become true!",
+    "fr": "We undertake every social events such as weddings, baptisms and more. <br>Contact us to make your dreamed ceremony become true!",
+    "it": "We undertake every social events such as weddings, baptisms and more. <br>Contact us to make your dreamed ceremony become true!"
+  },
+
   "lang_messaage_name": {
     "en": "Full name",
     "fr": "Nom et prénom",
@@ -282,6 +278,10 @@
     "el": "Βουκολιές, (2 χλμ προς Παλαιόχωρα),<br>73002, Χανιά, Κρήτη"
   },
   "lang_contact_schedule": {
+    "en": "Saturday 11:00 - 23:00 <br>Sunday 11:00 - 22:00",
+    "fr": "Les samedi de 11.00 à 23.00 <br> Les dimanche de 11.00 à 22.00",
+    "it": "Sabato da 11.00 a 23.00 <br> La Domenica da 11.00 a 22.00",
+    "el": "Σάββατο 11:00 - 23:00 <br>Κυριακή 11:00 - 22:00"
     //"en": "Saturday 11:00 - 23:00 <br>Sunday 11:00 - 22:00",
     "en": "Sunday 11:00 - 19:00",
     //"fr": "Les samedi de 11.00 à 23.00 <br> Les dimanche de 11.00 à 22.00",
