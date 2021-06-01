@@ -278,10 +278,10 @@
     "el": "Βουκολιές, (2 χλμ προς Παλαιόχωρα),<br>73002, Χανιά, Κρήτη"
   },
   "lang_contact_schedule": {
-    "en": "Sunday 11:00 - 19:00",
-    "fr": "Les dimanche de 11.00 à 19.00",
-    "it": "La Domenica da 11.00 a 19.00",
-    "el": "Κυριακή 11:00 - 19:00"
+    "en": "Saturday 11:00 - 22:00 <br>Sunday 11:00 - 19:00",
+    "fr": "Les samedi de 11.00 à 22.00 <br> Les dimanche de 11.00 à 19.00",
+    "it": "Sabato da 11.00 a 22.00 <br> La Domenica da 11.00 a 19.00",
+    "el": "Σάββατο 11:00 - 22:00 <br>Κυριακή 11:00 - 19:00"
   },
   "lang_contact_schedule_summer": {
     "en": "Tuesday to Sunday, 11:00 - 23:00 <br>Monday Closed",
