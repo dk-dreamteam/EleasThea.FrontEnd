@@ -402,13 +402,13 @@ $(document).ready(function () {
             context.clearRect(0, 0, this.width, this.height);
             context.beginPath();
             context.arc(this.width / 2, this.height / 2, outerRadius, 0, Math.PI * 2);
-            context.fillStyle = 'rgba(105, 170, 6,' + (1 - t) + ')';
+            context.fillStyle = 'rgba(255, 180, 0,' + (1 - t) + ')';
             context.fill();
             
             // draw inner circle
             context.beginPath();
             context.arc(this.width / 2, this.height / 2, radius, 0, Math.PI * 2);
-            context.fillStyle = 'rgba(44, 100, 1, 1)';
+            context.fillStyle = 'rgba(255,170,0)';
             context.strokeStyle = 'white';
             context.lineWidth = 2 + 4 * (1 - t);
             context.fill();

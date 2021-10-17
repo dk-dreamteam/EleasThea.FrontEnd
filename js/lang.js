@@ -18,11 +18,13 @@ $(document).ready(function () {
         $("#lang_nav_menu").html(data.lang_nav_menu[displayLang]);
         $("#lang_nav_gallery").html(data.lang_nav_gallery[displayLang]);
         $("#lang_nav_contact").html(data.lang_nav_contact[displayLang]);
+        $("#lang_nav_eshop").html(data.lang_nav_eshop[displayLang]);
         $("#lang_nav_reservation").html(data.lang_nav_reservation[displayLang]);
 
         $("#lang_nav_menu2").html(data.lang_nav_menu[displayLang]);
         $("#lang_nav_gallery2").html(data.lang_nav_gallery[displayLang]);
         $("#lang_nav_contact2").html(data.lang_nav_contact[displayLang]);
+        $("#lang_nav_eshop2").html(data.lang_nav_eshop[displayLang]);
         $("#lang_nav_reservation2").html(data.lang_nav_reservation[displayLang]);
 
         $("#lang_home_view").html(data.lang_home_view[displayLang]);

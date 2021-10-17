@@ -17,6 +17,12 @@
     "it": "CONTATTO",
     "el": "ΕΠΙΚΟΙΝΩΝΙΑ"
   },
+  "lang_nav_eshop": {
+    "en": "E-SHOP",
+    "fr": "E-SHOP",
+    "it": "E-SHOP",
+    "el": "ΚΑΤΑΣΤΗΜΑ"
+  },
   "lang_nav_reservation": {
     "en": "RESERVATION",
     "fr": "RESERVATION",
@@ -277,13 +283,13 @@
     "it": "Voukolies, ( 2 kms nella direzione di Paleochora),<br>73002, La Canée, Creta",
     "el": "Βουκολιές, (2 χλμ προς Παλαιόχωρα),<br>73002, Χανιά, Κρήτη"
   },
-  "lang_contact_schedule_summer": {
-    "en": "Saturday 11:00 - 22:00 <br>Sunday 11:00 - 22:00",
-    "fr": "Les samedi de 11.00 à 22.00 <br> Les dimanche de 11.00 à 22.00",
-    "it": "Sabato da 11.00 a 22.00 <br> La Domenica da 11.00 a 22.00",
-    "el": "Σάββατο 11:00 - 22:00 <br>Κυριακή 11:00 - 22:00"
-  },
   "lang_contact_schedule": {
+    "en": "Saturday 11:00 - 23:00 <br>Sunday 11:00 - 19:00",
+    "fr": "Les samedi de 11.00 à 23.00 <br> Les dimanche de 11.00 à 19.00",
+    "it": "Sabato da 11.00 a 23.00 <br> La Domenica da 11.00 a 19.00",
+    "el": "Σάββατο 11:00 - 23:00 <br>Κυριακή 11:00 - 19:00"
+  },
+  "lang_contact_schedule_summer": {
     "en": "Tuesday to Friday, 17:30 - 00:00 <br> Saturday 11:00 - 00:00 <br> Sunday 11:00 - 00:00<br>Monday Closed",
     "fr": "Du mardi au vendredi ouverture de 17.30 à 00.00 <br> Les samedi de 11.00 à 00.00 <br> Les dimanche de 11.00 à 00.00 <br> lundi est le jour chômé.",
     "it": "Dal martedì alla venerdì apertura di 17.30 a 00.00 <br> Sabato da 11.00 a 00.00 <br> La Domenica da 11.00 a 00.00 <br> lunedi e il giorno libero.",
