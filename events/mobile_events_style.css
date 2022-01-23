@@ -1,0 +1,29 @@
+@media screen and (max-width: 770px) {
+    .eventsBannerTitle{
+        font-size: 60px;
+    }
+
+    .eventsBannerSecondaryTitle-black{
+        font-size: 30px;
+    }
+    
+    .eventsBannerSubTitle-black{
+        font-size: 18px;
+    }
+
+    .eventsBannerSubTitle-white{
+        font-size: 18px;
+    }
+
+    .eventsImg{
+        max-width: 100%;
+    }
+
+    .convert_flex-direction_on_mob{
+        flex-direction: column !important;
+    }
+
+    .convert_flex-direction_on_mob_reverse{
+        flex-direction: column-reverse !important;
+    }
+}

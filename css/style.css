@@ -200,7 +200,7 @@ div ::-webkit-scrollbar-thumb:hover {
 .container.langSelector-box{
     text-align: right;
     position: absolute;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.60);
     bottom: 30px;
     font-weight: 300;   
 }
@@ -210,20 +210,93 @@ div ::-webkit-scrollbar-thumb:hover {
     color: rgba(255, 255, 255, 0.6);
 }
 
+/* ESHOP Slide */
+.eshop-slide {
+    width: 100%;
+    height: 600px;
+    flex-direction: row;
+}
+.eshop-poster {
+    width: 50vw;
+    height: 100%;
+    background: linear-gradient(to right, rgb(8 2 0 / 75%), rgb(24 18 0 / 75%)), url(../images/oliveoilbg.jpg);
+    background-size: cover;
+    background-position: left;
+    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+.eshop-title {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 100;
+    font-size: 3.5vw;
+    width: 35vw;
+    text-align: center;
+    font-weight: 100;
+    /* text-shadow:2px 2px 4px rgba(0,0,0,0.5); */
+}
+.eshop-text {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 100;
+    font-size: 22px;
+    width: 42vw;
+    text-align: center;
+    font-weight: 100;
+    padding: 25px;
+}
+.eshopDetails {
+    width: 50vw;
+    background: linear-gradient(to left, rgba(212, 174, 160, 0.50),rgba(255, 255, 255, 0.9));
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 400;
+    display: grid;
+    box-shadow: inset 0 -35px 150px 125px #ffffff;
+}
+.mD3 {
+    color: #b7841e;
+}
+.mD3:hover {
+    color: #956300;
+}
+/*.eshopFilled{
+    display: block;
+    width: 100%;
+    filter: grayscale(15%);
+    background: linear-gradient(to top right, rgba(36, 15, 5, 0.70),
+    rgba(36, 15, 5, 0.65),
+    rgba(36, 15, 5, 0.55),
+    rgba(36, 15, 5, 0.60)), 
+    url(../images/oliveoilbg.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 3;
+    text-align: center;
+    min-height: 400px;
+}*/
+/*.eshop-handDown{
+    position: absolute;
+    color: #ffffff;
+    bottom: 80px;
+    font-size: 42px;
+    opacity: 0.3;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}*/
 /* Details Slide */
-
-.detailsSlideAlt{
-    width:100%;
-    min-height:400px;
+.detailsSlideAlt {
+    width: 100%;
+    min-height: 400px;
     padding-top: 70px;
     padding-bottom: 70px;
     background: linear-gradient(to bottom right, rgba(255,255,255,0.65), rgba(255,255,255,0.25), rgba(255,255,255,0.8)), url("../images/background3_b&w.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    -moz-box-shadow:    inset 0 10px 20px 12px #ffffff; /* 0px 0px 15px 0px rgba(255, 255, 255, 0.2); */
+    -moz-box-shadow: inset 0 10px 20px 12px #ffffff; /* 0px 0px 15px 0px rgba(255, 255, 255, 0.2); */
     -webkit-box-shadow: inset 0 10px 20px 12px #ffffff;
-    box-shadow:         inset 0 10px 20px 12px #ffffff;
+    box-shadow: inset 0 10px 20px 12px #ffffff;
 }
 
 .detailsSlideAlt .owl-stage{
@@ -252,20 +325,20 @@ div ::-webkit-scrollbar-thumb:hover {
     padding: 5px 0px 20px 0px;
 }
 
-.detailsSlideAlt .owl-dot{
+.detailsSlideAlt .owl-dot {
     width: 15px;
-    height:15px;
-    background: rgba(23, 36, 18, 0.15)!important;
+    height: 15px;
+    background: rgb(23 36 18 / 30%) !important;
     border-radius: 15px;
-    margin:5px;
+    margin: 5px;
 }
 
 .detailsSlideAlt .owl-nav{
     display: none;
 }
 
-.detailsSlideAlt .owl-dot.active{
-    background: rgba(23, 36, 18, 0.3)!important;
+.detailsSlideAlt .owl-dot.active {
+    background: rgb(25 28 24 / 65%) !important;
 }
 
 /* Gallery Slide ALT */
@@ -706,11 +779,11 @@ iframe{
     width:50vw;
     height:100%;
     background:linear-gradient(to right,
-                                rgba(36,5,5,0.65),
-                                rgba(36,5,5,0.90)),
+                                rgba(36,5,5,0.75),
+                                rgba(36,5,5,0.95)),
                                   url("../images/grafeio.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: left;
     -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
 }
@@ -831,13 +904,13 @@ input::placeholder, textarea::placeholder{
     background-repeat: no-repeat;
     background-position: left bottom;
 }
-.restGuruAward{
+.restGuruAward {
     visibility: visible;
     position: absolute;
     z-index: 1000;
-    transform:rotate(25deg);
-    right:20px;
+    transform: rotate(-15deg);
     top: 120px;
+    left: 30px;
 }
 .restGuruM{
     visibility: hidden;
@@ -909,6 +982,26 @@ input::placeholder, textarea::placeholder{
     border-style: double;
     border-color: rgba(255,255,255,0.6);
     color: rgba(255,255,255,0.7)!important;
+}
+
+.wedding-learnMoreBtn {
+    border: 5px rgba(0,0,0,0.4);
+    border-style: dotted;
+    border-radius: 2px;
+    color: rgba(0,0,0,0.5);
+    padding: 10px 15px 10px 15px;
+    margin: 15px;
+    margin-bottom: 18px;
+    background: none;
+    font-weight: 700;
+    box-shadow: 0px 0px 15px rgba(255,255,255,0.2);
+    text-decoration: none !important;
+}
+
+.wedding-learnMoreBtn:hover{
+    border-style: double;
+    border-color: rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.7)!important;
 }
 
 /* Cooking Classes Slider Slide */

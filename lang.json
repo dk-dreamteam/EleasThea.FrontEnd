@@ -11,6 +11,18 @@
     "it": "GALLERIA",
     "el": "ΕΙΚΟΝΕΣ"
   },
+  "lang_nav_lessons": {
+    "en": "LESSONS",
+    "fr": "COURS",
+    "it": "LEZIONI",
+    "el": "ΜΑΘΗΜΑΤΑ"
+  },
+  "lang_nav_events": {
+    "en": "EVENTS",
+    "fr": "ÉVÉNEMENTS",
+    "it": "EVENTI",
+    "el": "ΕΚΔΗΛΩΣΕΙΣ"
+  },
   "lang_nav_contact": {
     "en": "CONTACT",
     "fr": "CONTACT",
@@ -119,6 +131,39 @@
     "it": "Gelato vaniglia <br> Gelato cioccolato <br> Torta all’arancia <br> Torta al cocco <br> Torta al cioccolato <br> Torta di noci <br>",
     "el": "Παγωτό βανίλια <br> Παγωτό σοκολάτα <br> Πορτοκαλόπιτα <br> Ινδοκάρυδο <br> Σοκολατόπιτα <br> Καρυδόπιτα <br>"
   },
+
+  "wedding_lang_title": {
+    "en": "Wedding & Baptism events!",
+    "fr": "Événements de mariage et de baptême!",
+    "it": "Eventi per matrimoni e battesimi!",
+    "el": "Εκδηλώσεις Γάμου & Βάπτισης!"
+  },
+  "wedding_lang_text": {
+    "en": "We undertake every social events such as weddings, baptisms and more. <br>Contact us to make your dreamed ceremony become true!",
+    "fr": "Nous entreprenons tous les événements sociaux tels que les mariages, les baptêmes et plus encore. <br>Contactez-nous pour que la cérémonie de vos rêves devienne réalité ! ",
+    "it": "Ci occupiamo di tutti gli eventi sociali come matrimoni, battesimi e altro ancora. <br>Contattaci per realizzare la cerimonia dei tuoi sogni!",
+    "el": "Αναλαμβάνουμε κάθε είδους κοινωνικής εκδήλωσης όπως γάμους, βαπτίσεις κ.ά. Επικοινωνήστε μαζί μας για να πραγματοποιήσουμε την ονειρεμένη σας τελετή!"
+  },
+  "wedding_lang_learnMore": {
+    "en": "LEARN MORE!",
+    "fr": "Apprendre encore plus!",
+    "it": "Scopri di più!",
+    "el": "Μάθε περισσότερα!"
+  },
+
+  "lang_eshop_title": {
+    "en": "VISIT OUR E-SHOP NOW!",
+    "fr": "VISITEZ NOTRE E-SHOP MAINTENANT!",
+    "it": "VISITA ORA IL NOSTRO E-SHOP!",
+    "el": "ΕΠΙΣΚΕΥΤΕΙΤΕ ΤΟ ΚΑΤΑΣΤΗΜΑ ΜΑΣ!"
+  },
+  "lang_eshop_explainer": {
+    "en": "Now you can find in our online store your favorite Cretan olive oil in various sizes and quantities.",
+    "fr": "Vous pouvez maintenant trouver dans notre boutique en ligne votre huile d'olive crétoise préférée dans différentes tailles et quantités.",
+    "it": "Ora puoi trovare nel nostro negozio online il tuo olio d'oliva cretese preferito in varie dimensioni e quantità.",
+    "el": "Τώρα μπορειτε να βρείτε στο ηλεκτρονικό μας κατάστημα το αγαπημένο σας κρητικό ελαιόλαδο σε διάφορα μεγέθη και ποσότητες."
+  },
+
   "lang_reservation_title": {
     "en": "Make a reservation",
     "fr": "Réserver une table",
@@ -204,18 +249,6 @@
     "fr": "LEARN MORE!",
     "it": "LEARN MORE!"
   },
-  "wedding_lang_title": {
-    "el": "Εκδηλώσεις Γάμου & Βάπτισης!",
-    "en": "Wedding & Baptism events!",
-    "fr": "Wedding & Baptism events!",
-    "it": "Wedding & Baptism events!"
-  },
-  "wedding_lang_text": {
-    "el": "Αναλαμβάνουμε κάθε είδους κοινωνικής εκδήλωσης όπως γάμους, βαπτίσεις κ.ά. Επικοινωνήστε μαζί μας για να πραγματοποιήσουμε την ονειρεμένη σας τελετή!",
-    "en": "We undertake every social events such as weddings, baptisms and more. <br>Contact us to make your dreamed ceremony become true!",
-    "fr": "We undertake every social events such as weddings, baptisms and more. <br>Contact us to make your dreamed ceremony become true!",
-    "it": "We undertake every social events such as weddings, baptisms and more. <br>Contact us to make your dreamed ceremony become true!"
-  },
 
   "lang_messaage_name": {
     "en": "Full name",
@@ -294,5 +327,94 @@
     "fr": "Du mardi au vendredi ouverture de 17.30 à 00.00 <br> Les samedi de 11.00 à 00.00 <br> Les dimanche de 11.00 à 00.00 <br> lundi est le jour chômé.",
     "it": "Dal martedì alla venerdì apertura di 17.30 a 00.00 <br> Sabato da 11.00 a 00.00 <br> La Domenica da 11.00 a 00.00 <br> lunedi e il giorno libero.",
     "el": "Τρίτη έως Παρασκευή από τις 17:30 - 00:00 <br> Σάββατο 11:00 - 00:00 <br>Κυριακή 11:00 - 00:00 <br>Δευτέρα ΚΛΕΙΣΤΑ"
+  },
+
+
+
+  "lang_eventsBanner_title": {
+    "en": "Events",
+    "fr": "Événements",
+    "it": "Eventi",
+    "el": "Εκδηλώσεις"
+  },
+
+  "lang_eventsBanner_subTitle": {
+    "en": "At Eleas Thea we have the mood and the desire to organize together the wedding reception or baptism of your dreams accompanied by the enchanting Cretan sunset. The hosts George and Katerina put their own special stamp on the organization and care of your guests.",
+    "fr": "Chez Eleas Thea, nous avons l'humeur et l'envie d'organiser ensemble la réception de mariage ou le baptême de vos rêves accompagnés du coucher de soleil crétois enchanteur. Les hôtes George et Katerina mettent leur propre cachet particulier sur l'organisation et le soin de vos invités.",
+    "it": "Da Eleas Thea abbiamo l'umore e la voglia di organizzare insieme il ricevimento di nozze o il battesimo dei vostri sogni accompagnati dall'incantevole tramonto cretese. I padroni di casa George e Katerina mettono il loro marchio speciale nell'organizzazione e nella cura dei vostri ospiti.",
+    "el": "Στο Ελαίας Θέα έχουμε την διάθεση και το μεράκι να οργανώσουμε μαζί την δεξίωση γάμου ή βάπτισης των ονείρων σας με συντροφιά το μαγευτικό κρητικό ηλιοβασίλεμα. Οι οικοδεσπότες Γιώργος και Κατερίνα  βάζουν τη δική τους ξεχωριστή σφραγίδα στην οργάνωση και φροντίδα των καλεσμένων σας."
+  },
+
+  "lang_eventsBannerSecondTitle": {
+    "en": "Marriage",
+    "fr": "Mariage",
+    "it": "Matrimonio",
+    "el": "Γάμος"
+  },
+
+  "lang_eventsBannerSecondSubTitle": {
+    "en": "The wedding is the first celebration of the couple that they will have to remember in the company of their social circle. It is an opportunity for family and friends to get closer and that is why it must be special. There are certainly many ways to organize a beautiful reception and impress your guests, but nothing characterizes an event more than the place that hosts it! Our goal is to offer the couple special moments of enjoyment, carefree and fun!",
+    "fr": "Le mariage est la première célébration du couple dont ils devront se souvenir en compagnie de leur cercle social. C'est une opportunité pour la famille et les amis de se rapprocher et c'est pourquoi cela doit être spécial. Il existe certes de nombreuses façons d'organiser une belle réception et d'impressionner vos invités, mais rien ne caractérise plus un événement que le lieu qui l'accueille ! Notre objectif est d'offrir au couple des moments privilégiés de plaisir, d'insouciance et de plaisir!",
+    "it": "Il matrimonio è la prima celebrazione degli sposi che dovranno ricordare in compagnia della loro cerchia sociale. È un'opportunità per la famiglia e gli amici di avvicinarsi ed è per questo che deve essere speciale. Ci sono sicuramente tanti modi per organizzare un bel ricevimento e stupire i propri ospiti, ma niente caratterizza un evento più del luogo che lo ospita! Il nostro obiettivo è offrire alla coppia momenti speciali di divertimento, spensieratezza e divertimento!",
+    "el": "Ο γάμος είναι η πρώτη γιορτή του ζευγαριού που θα έχει  να την θυμάται παρέα με τον κοινωνικό τους κύκλο. Είναι η ευκαιρία να έρθουν πιο κοντά οι οικογένειες και οι φίλοι και γι αυτό το λόγο πρέπει να είναι ξεχωριστή. Σίγουρα υπάρχουν πολλοί τρόποι για να οργανώσετε μια όμορφη δεξίωση και να εντυπωσιάσετε τους καλεσμένους σας, τίποτα όμως δεν χαρακτηρίζει μια εκδήλωση περισσότερο από τον χώρο που την φιλοξενεί! Σκοπός μας είναι να προσφέρουμε στο ζευγάρι ξεχωριστές στιγμές απόλαυσης, ξεγνοιασιάς και διασκέδάσης!"
+  },
+
+  "lang_eventsBannerThirdTitle": {
+    "en": "Baptism",
+    "fr": "Baptême",
+    "it": "Battesimo",
+    "el": "Βάπτιση"
+  },
+
+  "lang_eventsBannerThirdSubTitle": {
+    "en": "Baptism is the second biggest \"celebration\" of the family, after the wedding, and is usually expected by relatives and friends with great enthusiasm, not only from a religious point of view for the blessing and naming of the child, but also for the feast that most often The mystery follows. Knowing that your child's baptism is the first important event of his life after his birth, we make sure that the baptism reception meets your expectations.",
+    "fr": "Le baptême est la deuxième plus grande \"célébration\" de la famille, après le mariage, et est généralement attendu par les parents et amis avec beaucoup d'enthousiasme, non seulement d'un point de vue religieux pour la bénédiction et la nomination de l'enfant, mais aussi pour la fête. que le plus souvent Le mystère suit Sachant que le baptême de votre enfant est le premier événement important de sa vie après sa naissance, nous veillons à ce que la réception du baptême soit à la hauteur de vos attentes.",
+    "it": "Il battesimo è la seconda \"celebrazione\" più grande della famiglia, dopo il matrimonio, ed è solitamente atteso da parenti e amici con grande entusiasmo, non solo dal punto di vista religioso per la benedizione e nominazione del bambino, ma anche per la festa che il più delle volte Segue il mistero Sapendo che il battesimo di tuo figlio è il primo evento importante della sua vita dopo la sua nascita, ci assicuriamo che la ricezione del battesimo soddisfi le tue aspettative.",
+    "el": "Η βάπτιση αποτελεί την δεύτερη μεγαλύτερη «γιορτή» της οικογένειας, μετά τον γάμο, και συνήθως προσδοκάται από συγγενείς και φίλους με μεγάλο ενθουσιασμό, όχι μόνο από θρησκευτικής άποψης για την ευλογία και την ονοματοδοσία του παιδιού, αλλά και για το γλέντι που τις περισσότερες φορές ακολουθεί το μυστήριο.Γνωρίζοντας πως η βάπτιση του παιδιού σας είναι το πρώτο σημαντικό γεγονός της ζωής του μετά τη γέννηση του, φροντίζουμε η δεξίωση της βάπτισης να ανταποκρίνεται στις προσδοκίες σας."
+  },
+
+  "lang_eventsBannerFourthTitle": {
+    "en": "Cretan cuisine",
+    "fr": "Cuisine Crétoise ",
+    "it": "Cucina Cretese ",
+    "el": "Κρητική Κουζίνα"
+  },
+
+  "lang_eventsBannerFourthSubTitle": {
+    "en": "Our traditional Cretan cuisine with pure quality ingredients, will leave you with the best impressions while our staff will serve every need of your guests, so that they feel pleasant and familiar.",
+    "fr": "Notre cuisine crétoise traditionnelle avec des ingrédients de qualité pure, vous laissera les meilleures impressions tandis que notre personnel répondra à tous les besoins de vos invités, afin qu'ils se sentent agréables et familiers.",
+    "it": "La nostra cucina tradizionale cretese con ingredienti di pura qualità, ti lascerà le migliori impressioni mentre il nostro personale servirà ogni esigenza dei tuoi ospiti, in modo che si sentano piacevoli e familiari.",
+    "el": "Η παραδοσιακή κρητική κουζίνα μας με τα αγνής ποιότητας υλικά, θα σας αφήσει με τις καλύτερες εντυπώσεις ενώ το προσωπικό μας θα εξυπηρετήσει κάθε ανάγκη των καλεσμένων σας, ώστε να νιώσουν ευχάριστα και οικεία."
+  },
+
+  "lang_eventsBannerFivethTitle": {
+    "en": "Spaces",
+    "fr": "Les espaces",
+    "it": "Spazi",
+    "el": "Χώροι"
+  },
+
+  "lang_eventsBannerFivethSubTitle": {
+    "en": "The interior of the store can serve up to 150 people, while your guests can be accommodated in the open air, which has a capacity of at least 200 people. As for our little friends they can have fun and relax in the safe playground outside.",
+    "fr": "L'intérieur du magasin peut accueillir jusqu'à 150 personnes, tandis que vos invités peuvent être hébergés en plein air, qui a une capacité d'au moins 200 personnes. Quant à nos petits amis, ils pourront s'amuser et se détendre dans l'aire de jeux sécurisée à l'extérieur.",
+    "it": "L'interno del negozio può servire fino a 150 persone, mentre i tuoi ospiti possono essere ospitati all'aperto, che ha una capacità di almeno 200 persone. Per quanto riguarda i nostri piccoli amici possono divertirsi e rilassarsi nel sicuro parco giochi esterno.",
+    "el": "Ο εσωτερικός χώρος του μαγαζιού μπορεί να εξυπηρετήσει μέχρι και 150 άτομα, ενώ οι καλεσμένοι σας μπορούν να φιλοξενηθούν και στον υπαίθριο χώρο, ο οποίος έχει χωρητικότητα τουλάχιστον 200 ατόμων. Όσον αφορά τους μικρούς μας φίλους μπορούν να διασκεδάσουν και να χαλαρώσουν στην ασφαλή παιδική χαρά που βρίσκεται εξωτερικά."
+  },
+
+  "lang_eventsBannerSixthTitle": {
+    "en": "Contact us",
+    "fr": "Nous contacter",
+    "it": "Contattaci",
+    "el": "Επικοινωνίστε μαζί μας"
+  },
+
+  "lang_eventsBannerSixthSubTitle": {
+    "en": "You will only put your good mood and we will make this day special. For more information you can fill out the form below and we will get in touch with you.",
+    "fr": "Vous n'y mettrez que votre bonne humeur et nous ferons de cette journée un moment spécial. Pour plus d'informations, vous pouvez remplir le formulaire ci-dessous et nous prendrons contact avec vous.",
+    "it": "Metterai solo il tuo buon umore e renderemo speciale questo giorno. Per maggiori informazioni puoi compilare il modulo sottostante e ti contatteremo.",
+    "el": "Εσείς θα βάλετε μόνο την καλή σας διάθεση και εμείς θα κάνουμε αυτή την ημέρα ξεχωριστή. Για περισσότερες πληροφορίες μπορείτε να συμπληρώσετε την παρακάτω φόρμα κι εμείς θα έρθουμε σε επικοινωνία μαζί σας."
   }
+
+
 }
+
