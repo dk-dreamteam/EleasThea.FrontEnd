@@ -1,6 +1,6 @@
 @media screen and (max-width: 770px) {
-    .eventsBannerTitle{
-        font-size: 60px;
+    .eventsBannerTitle {
+        font-size: 12vw;
     }
 
     .eventsBannerSecondaryTitle-black{
@@ -25,5 +25,9 @@
 
     .convert_flex-direction_on_mob_reverse{
         flex-direction: column-reverse !important;
+    }
+
+    .container {
+        width: 90%!important;
     }
 }
