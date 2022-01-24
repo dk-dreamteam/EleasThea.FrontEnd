@@ -256,6 +256,7 @@ div ::-webkit-scrollbar-thumb:hover {
 }
 .mD3 {
     color: #b7841e;
+    height: 80%;
 }
 .mD3:hover {
     color: #956300;
