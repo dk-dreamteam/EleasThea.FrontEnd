@@ -1,28 +1,30 @@
 $(document).ready(function () {
-    var siteLocation = window.location;
-    if (siteLocation.pathname.endsWith("events/")) {
-        var folder = "../images/gallery_images/";
-    } else {
-        var folder = "images/gallery_images/";
-    }
+    //var siteLocation = window.location;
+    //if (siteLocation.pathname.endsWith("events/")) {
+    //    var folder = "../images/gallery_images/";
+    //} else {
+    //    var folder = "images/gallery_images/";
+    //}
 
-    $.ajax({
-        url: folder,
-        success: function (data) {
-            $(data).find("a").attr("href", function (i, val) {
-                if (val.match(/\.(jpe?g|png|gif)$/)) {
-                    $('#appendDiv').append('<div><img class="imgFromGal" lazy-src="' + folder + val + '" /></div>');
-                }
-            });
-        },
-        async: false
-    });
+    //$.ajax({
+    //    url: folder,
+    //    success: function (data) {
+    //        $(data).find("a").attr("href", function (i, val) {
+    //            if (val.match(/\.(jpe?g|png|gif)$/)) {
+    //                $('#appendDiv').append('<div><img class="imgFromGal" lazy-src="' + folder + val + '" /></div>');
+    //            }
+    //        });
+    //    },
+    //    async: false
+    //});
 
 /*1os tropos*/
 
-    //for (var i = 1; i <= 45; i++) {
-    //    $('#appendDiv').append('<div><img class="imgFromGal" lazy-src="images/gallery_images/' + i + '.jpg" /></div>');
-    //}
+    for (var i = 1; i <= 45; i++) {
+        if (i != 7) {
+            $('#appendDiv').append('<div><img class="imgFromGal" lazy-src="images/gallery_images/' + i + '.jpg" /></div>');
+        }
+    }
 
 
 /*2os tropos doesnt work*/
