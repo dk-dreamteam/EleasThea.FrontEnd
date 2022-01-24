@@ -1,10 +1,10 @@
 $(document).ready(function () {
-    //var siteLocation = window.location;
-    //if (siteLocation.pathname.endsWith("events/")) {
-    //    var folder = "../images/gallery_images/";
-    //} else {
-    //    var folder = "images/gallery_images/";
-    //}
+    var siteLocation = window.location;
+    if (siteLocation.pathname.endsWith("events/")) {
+        var folder = "../images/gallery_images/";
+    } else {
+        var folder = "images/gallery_images/";
+    }
 
     //$.ajax({
     //    url: folder,
@@ -22,7 +22,7 @@ $(document).ready(function () {
 
     for (var i = 1; i <= 45; i++) {
         if (i != 7) {
-            $('#appendDiv').append('<div><img class="imgFromGal" lazy-src="images/gallery_images/' + i + '.jpg" /></div>');
+            $('#appendDiv').append('<div><img class="imgFromGal" lazy-src="'+ folder + i + '.jpg" /></div>');
         }
     }
 
