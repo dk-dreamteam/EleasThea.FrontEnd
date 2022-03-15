@@ -20,7 +20,7 @@ $(document).ready(function () {
 
 /*1os tropos*/
 
-    for (var i = 1; i <= 45; i++) {
+    for (var i = 1; i <= 48; i++) {
         if (i != 7) {
             $('#appendDiv').append('<div><img class="imgFromGal" lazy-src="'+ folder + i + '.jpg" /></div>');
         }
