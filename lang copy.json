@@ -66,10 +66,10 @@
     "el": "Κρασί από εξαιρετικές ποικιλίες σταφυλιού. Γνήσια κρητικά φαγητά και γλυκά φτιαγμένα με τα πιο αγνά υλικά, γιαούρτι, μυζήθρα, αγνό βιολογικό ελαιόλαδο πιστοποιημένο από τον ΔΗΩ (ΟΡΓΑΝΙΣΜΟΣ ΕΛΕΓΧΟΥ & ΠΙΣΤΟΠΟΙΗΣΗΣ ΒΙΟΛΟΓΙΚΩΝ ΠΡΟΪΟΝΤΩΝ)."
   },
   "lang_spcialities_title": {
-    "en": "Our dishes",
-    "fr": "Nos plats",
-    "it": "I nostri piatti",
-    "el": "Τα πιάτα μας"
+    "en": "Our Specialities",
+    "fr": "Nos spécialités",
+    "it": "Le nostre specialita",
+    "el": "Οι Σπεσιαλιτέ μας"
   },
   "lang_spcialities_details2": {
     "en": "Click here, to close the menu",
@@ -114,23 +114,23 @@
     "el": "Επιδόρπιο"
   },
   "lang_appetizer_menu": {
-    "en": "Roasted vegetables <br> Various olives <br> Fried flute <br> Zucchini flowers <br> Meat pie <br> Pork pancetta <br> Lamb liver <br> Tzatziki <br> Aubergine salad <br> Dakos <br> Staka <br> Fried cheese ( Saganaki ) <br> Zucchini balls <br> Sausages <br> Split peas <br> French fries <br>",
-    "fr": "Légumes rôtis <br> Diverses olives <br> Flûte frite <br> Fleurs de courgette <br> Pâté à la viande <br> Pancetta de porc <br> Foie d'agneau <br> Tzatziki <br> Salade d’Aubergines <br> Dakos <br> Staka <br> Fromage frit ( Saganaki) <br> Boulettes de courgettes <br> Saucisses <br> Pois cassés <br> Frites <br>",
-    "it": "Verdure arrosto <br> Olive varie <br> Flauto Fritto <br> Fiori di zucca <br> Tortino di carne <br> Pancetta di maiale <br> Fegato di agnello <br> Tzatziki <br> Insalata di melanzane <br> Dakos <br> Staka <br> Fromaggio fritto ( Saganaki) <br> Gnocchi di zucchine <br> Salsicce <br> Pizelli spezzati <br> Patatine fritte <br> ",
-    "el": "Ψητά λαχανικά <br> Διάφορες ελιές <br> Φλογέρα τηγανιτή <br> Κολοκυθοανθοί <br> Κρεατόπιτα <br> Πανσέτα χοιρινή <br> Συκώτι αρνίσιο <br> Τζατζίκι <br> Μελιτζανοσαλάτα <br> Ντάκος <br> Στάκα <br> Σαγανάκι <br> Κολοκυθοκεφτέδες <br> Κοτόπιτα <br> Λουκάνικα <br> Φάβα <br> Πατάτες τηγανιτές <br>"
+    "en": "Tzatziki <br> Aubergine salad <br> Dakos <br> Cream goat cheese <br> Cheese <br> Soft cheese <br> Staka <br> Fried cheese ( Saganaki ) <br> Zucchini balls <br> Chicken pie <br> Meat pie <br> Stuffed vine leaves <br> Stuffed zucchini flowers <br> Sfakianes pites <br> Kalitsounia with spinach <br> Kalitsounia with cream goat cheese <br> Sausages <br> Split peas <br> French fries <br>",
+    "fr": "Tzatziki <br> Salade d’Aubergines <br> Dakos <br> Fromage de chèvre <br> Fromage Fromage mou <br> Staka <br> Fromage frit ( Saganaki) <br> Boulettes de courgettes <br> Tarte au poulet <br> Tarte à la viande <br> Feuilles de vigne farcies <br> Fleurs de courgettes farcies <br> Sfakianes pites <br> Canapés aux épinards <br> Canapés au fromage de chèvre <br> Saucisses <br> Pois cassés <br> Frites <br>",
+    "it": "Tzatziki <br> Insalata di melanzane <br> Dakos <br> Formaggio di capra <br> Formaggio <br> Formaggio a pasta molle <br> Staka <br> Fromaggio fritto ( Saganaki) <br> Gnocchi di zucchine <br> Torta di pollo <br> Torta di carne <br> Foglie di vite ripiene <br> Fiori di zucca garniti <br> Sfakianespites <br> Tartine di spinaci <br> Tartine di formaggio di capra <br> Salsicce <br> Pizelli spezzati <br> Patatine fritte <br> ",
+    "el": "Τζατζίκι <br> Μελιτζανοσαλάτα <br> Ντάκος <br> Μυζήθρα <br> Φέτα <br> Μαλακό Τυρί <br> Στάκα <br> Σαγανάκι <br> Κολοκυθοκεφτέδες <br> Κοτόπιτα <br> Σπέσιαλ Κρεατόπιτα <br> Ντολμαδάκια <br> Ανθοί <br> Σφακιανές πίτες <br> Καλιτσούνια με σπανάκι <br> Καλιτσούνια με μυζήθρα <br> Λουκάνικα <br> Φάβα <br> Πατάτες τηγανιτές <br>"
   },
   "lang_main_menu": {
-    "en": "Roasted lamb with wine sauce <br> Meatballs braised <br> Lamb in the nest <br> Stuffed vegetables <br> Pasticcio <br> Bureki <br> Βeef matched with vegetables <br> Rabbit with chestnuts <br> Rabbit with tomato sauce <br> Chicken with soft goat cheese and mushrooms <br> Special traditional plate: a blending of wheat and goat milk cooked<br> Goat belly <br> Pork with balsamic and mushrooms <br> Chestnuts with tomato sauce <br> Cretan carbonara <br> Boiled snails <br> Cuttlefish <br>",
-    "fr": "Agneau grillé à la sauce viande <br> Boulettes de viande braisées <br> Agneau au nid <br> Légumes farcis <br> Pâtisserie <br> Burek <br> Boeuf servi avec un assortiment de légumes <br> Lapin aux marrons <br> Lapin à la sauce tomates <br> Poulet avec fromage de chèvre et champignons <br> Plat traditionnel: mélange de blé et lait de chèvre cuits <br> Tripes de chèvre <br> Porc au vinaigre balsamique et champignons <br> Châtaignes sauce tomates <br> Carbonara crétoise <br> Escargots bouillis <br> Seiche <br>",
-    "it": "Agnello alla grillia in salsa di vino <br> Polpette brasate <br> Agnello nel nido <br> Verdure ripiene <br> Pasticcio <br> Burek <br> Manzo servito con verdure assortite <br> Coniglio alle castagne <br> Cognilio in salsa di pomodoro <br> Pollo con formaggio di capra e funghi <br> Piatto tradizionale: micela di grano e di latte di capra <br> Trippa di capra <br> Carne di maiale all'aceto balsamico e funghi <br> Castagne con salsa di pomodoro <br> Carbonara cretese <br> Lumache lessate <br> Seppie <br>",
-    "el": "Αρνί τσιγαριαστό <br> Κεφτεδάκια κοκκινιστά <br> Αρνί στη φωλιά <br> Γεμιστά <br> Παστίτσιο <br> Μπουρέκι <br> Μοσχαράκι στο πήλινο <br> Κουνέλι με κάστανα <br> Κουνέλι κοκκινιστό <br> Κοτόπουλο με ξυνομυζήθρα και μανιτάρια <br> Ξυνόχοντρος <br> Κοιλιδάκι <br> Χοιρινό με βαλσάμικο και μανιτάρια <br> Κάστανα κοκκινιστά <br> Κρητική καρμπονάρα <br> Χοχλιοί μπουμπουριστοί <br> Σουπιές <br>"
+    "en": "Roasted lamb with wine sauce <br> Lamb with tomato sauce matched with potatoes or pasta <br> Special beef matched with vegetables <br> Rabbit with tomato sauce <br> Chicken matched with potatoes or pasta <br> Chicken with soft goat cheese and mushrooms <br> Meatballs with tomato sauce <br> Special traditional plate: a blending of wheat and goat milk cooked with mushrooms <br> Spaghetti with tomato sauce <br> Goat belly with tomato sauce <br> Chestnuts with tomato sauce <br> Fried hake with garlic salad <br> Kochi pork antikristo <br> Antikristo dish <br> Antikristo 1kg <br> Lamb chops <br> Lamb chops 1kg <br> Pork steak <br> Pork skewer <br> Cutlet <br> Chicken fillet <br> Variety of meats (big or small) <br>",
+    "fr": "Agneau grillé à la sauce viande <br> Agneau à la sauce tomates avec pommes de terre ou pâtes <br> Boeuf servi avec un assortiment de légumes <br> Lapin à la sauce tomates <br> Assortiment de poulet avec pommes de terre ou pâtes <br> Poulet avec fromage de chèvre et champignons <br> Boulettes de viande avec sauce tomates <br> Plat traditionnel: mélange de blé et lait de chèvre cuits avec champignons <br> Spaghettis à la sauce tomates <br> Tripes de chèvre sauce tomates <br> Châtaignes sauce tomates <br> Merlu frit avec salad d’ail <br> Porc Antikristo ( à la braise) <br> Assortiment Antikristo <br> Assortiment Antikristo 1 kg <br> Côtelettes d’agneau <br> Côtelettes d’agneau 1 kg <br> Steak de porc <br> Brochette de porc <br> Escalope <br> Filet de poulet <br> Variétés diverses de viands ( petites ou grandes portions) <br>",
+    "it": "Agnello alla grillia in salsa di vino <br> Agnello in salsa di pomodoro con patate o pasta <br> Manzo servito con verdure assortite <br> Cognilio in salsa di pomodoro <br> Pollo Assortito con patate o pasta <br> Pollo con formaggio di capra e funghi <br> Polpette con salsa di pomodoro <br> Piatto tradizionale: micela di grano e di latte di capra con funghi <br> Spaghetti con salsa di pomodoro <br> Trippa di capra con salsa di pomodoro <br> Castagne con salsa di pomodoro <br> Nasello fritto con insalata di aglio <br> Maiale Antikristo (alla griglia) <br> Assortimento Antikristo <br> Assortimento Antikristo 1 kg <br> Costelette di agnello <br>Costelette di agnello 1 kg <br> Bistecca di maiale <br> Spiedino di maiale <br> Scaloppina <br> Filetto di pollo <br> Varie varieta di carne ( piccole o grandi porzioni) <br>",
+    "el": "Αρνί τσιγαριαστό <br> Αρνί κοκκινιστό με πατάτες ή μακαρόνια <br> Σπέσιαλ μοσχαράκι στο πήλινο <br> Κουνέλι κοκκινιστό με πατάτες <br> Κοτόπουλο κοκκινιστό με πατάτες ή μακαρόνια <br> Κοτόπουλο με ξυνομυζήθρα πιπεριές και μανιτάρια <br> Σουτζουκάκια <br> Ξυνόχοντρος με μανιτάρια <br> Μακαρόνια με σάλτσα <br> Κοιλιδάκι κοκκινιστό <br> Κάστανα κοκκινιστά <br> Μπακαλιάρος σκορδαλιά <br> Κότσι χοιρινό αντικριστό <br> Αντικρισό μερίδα <br> Αντικριστό κιλό <br> Παϊδάκια μερίδα <br> Παϊδάκια κιλό <br> Χοιρινή <br> Σουβλάκι χοιρινό <br> Μπιφτέκι <br> Κοτόπουλο φιλέτο <br> Ποικιλία Κρεατικών (μεγάλη & μικρή) <br>"
   },
   "lang_dessert_menu": {
-    "en": "Coconut cake <br> Chocolate pie <br> Walnut cake <br> Milfeig <br> Yogurt with honey <br> Spoon dessert <br>",
-    "fr": "Gâteau à la noix de coco <br> Tarte au chocolat <br> Milfeig <br> Gâteau aux noix <br> Yaourt au miel <br> Cuillère à dessert <br>",
-    "it": "Torta al cocco <br> Torta al cioccolato <br> Torta di noci <br> Milf <br> Yogurt al miele <br> Dessert al cucchiaio <br>",
-    "el": "Ινδοκάρυδο <br> Σοκολατόπιτα <br> Καρυδόπιτα <br> Μιλφέιγ <br> Γιαούρτι με μέλι <br> Γλυκό του κουταλιού <br>"
- },
+    "en": "Ice cream vanilla <br> Ice cream chocolate <br> Orange pie <br> Coconut cake <br> Chocolate pie <br> Walnut cake <br>",
+    "fr": "Glace à la vanille <br> Glace au chocolat <br> Tarte à l’orange <br> Gâteau à la noix de coco <br> Tarte au chocolat <br> Gâteau aux noix <br>",
+    "it": "Gelato vaniglia <br> Gelato cioccolato <br> Torta all’arancia <br> Torta al cocco <br> Torta al cioccolato <br> Torta di noci <br>",
+    "el": "Παγωτό βανίλια <br> Παγωτό σοκολάτα <br> Πορτοκαλόπιτα <br> Ινδοκάρυδο <br> Σοκολατόπιτα <br> Καρυδόπιτα <br>"
+  },
 
   "wedding_lang_title": {
     "en": "Wedding & Baptism events!",
