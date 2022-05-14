@@ -94,7 +94,7 @@ $(document).ready(function () {
         $("#lang_ajax_ok").html(data.lang_ajax_ok[displayLang]);
 
         $("#lang_contact_location").html(data.lang_contact_location[displayLang]);
-        $("#lang_contact_schedule_summer").html(data.lang_contact_schedule[displayLang]);
+        $("#lang_contact_schedule_summer").html(data.lang_contact_schedule_summer[displayLang]);
 
         //Events
         if (isEvents) {
